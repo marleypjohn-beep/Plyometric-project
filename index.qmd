@@ -1,0 +1,23 @@
+---
+title: About
+---
+
+What if the key to running faster and jumping higher was hidden in just a few months of explosive training?
+
+Over six months, this project will explore how to organize plyometric workouts for athletes and use published research to guide a progressive training plan.
+
+## About Me
+
+- **Name:** Marley John
+- **Email:** [marley.p.john@gmail.com](mailto:marley.p.john@gmail.com)
+- **GitHub:** [marleypjohn-beep](https://github.com/marleypjohn-beep)
+- **Final project repository:** [Plyometric-project](https://github.com/marleypjohn-beep/Plyometric-project)
+- **New College of Florida:** [ncf.edu](https://www.ncf.edu/)
+
+Baseball has been part of my life for as long as I can remember. As I got older, I became interested in strength training because I saw how it could help me perform better on the field. That curiosity led me to explore different ways to improve my athletic performance, including plyometric training.
+
+I have practiced plyometrics for several years, and I feel it has helped me become a better player. I chose this project because I want to share what I learn about the principles behind this style of training and the potential benefits it can offer athletes.
+
+## Data Sources
+
+This project will use published research and coaching resources to inform a six-month plyometric training plan for athletes. The [Coach Athletics article](https://coachathletics.com.au/coaching-education/plyometrics-four-studies-all-track-and-field-coaches-should-understand) discusses four studies relevant to track-and-field coaches, and this [research article on PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC5260592/) provides additional scientific background on plyometric training. These are background sources for the project, rather than a workout dataset.
