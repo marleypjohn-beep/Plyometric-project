@@ -1,0 +1,16 @@
+---
+title: Results
+---
+
+## Countermovement jump height
+
+The average jump height increased from before to after the study intervention in all four groups:
+
+| Maturity group | Study group | Participants | Before (cm) | After (cm) | Change (cm) |
+|---|---|---:|---:|---:|---:|
+| Pre-PHV | Control | 7 | 17.26 | 17.96 | +0.70 |
+| Pre-PHV | Plyometric training | 10 | 21.58 | 22.52 | +0.94 |
+| Post-PHV | Control | 10 | 31.23 | 31.96 | +0.73 |
+| Post-PHV | Plyometric training | 10 | 31.75 | 32.85 | +1.10 |
+
+These are descriptive group averages, not proof that training caused the changes. The study reported no statistically significant time-by-intervention-by-maturity interaction for its outcomes. Read the [study](https://doi.org/10.1371/journal.pone.0349011) for the full methods and statistical results.

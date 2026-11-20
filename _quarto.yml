@@ -1,12 +1,27 @@
 project:
   type: website
+  resources:
+    - data/explore-performance.csv
+    - scripts/explore.js
 
 website:
   title: "Plyometric Project"
   navbar:
     left:
       - href: index.qmd
+        text: Home
+      - href: about.qmd
         text: About
+      - href: results.qmd
+        text: Results
+      - href: training-methods.qmd
+        text: Training & Methods
+      - href: jump-performance.qmd
+        text: Jump Performance
+      - href: speed-agility.qmd
+        text: Speed & Agility
+      - href: explore.qmd
+        text: Explore
 
 format:
   html:

@@ -1,0 +1,148 @@
+---
+title: Explore
+---
+
+## Study data
+
+This page lets visitors explore **published research data** from a randomized controlled trial of youth male soccer players. The study compared a 12-week plyometric jump training program with a control group and categorized players by estimated maturity status before or after peak height velocity (PHV). No new participant data were collected for this project.
+
+For each participant and test, I averaged the available attempts before and after the intervention. The table contains paired values for nine performance tests. Its A01–A37 labels are temporary row labels created for filtering; the source dataset does not identify participants by name or ID. For sprint, L-run, and drop-jump contact time, lower values indicate faster performance. Other measures are shown in their recorded units.
+
+## Interactive performance graph
+
+Use the dropdowns to filter the graph and table by test, training group, and participant. Hover over or keyboard-focus a participant's line or point to see their before, after, and change values.
+
+<style>
+.explore-filters {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin: 1rem 0;
+}
+.explore-filters label,
+.table-search label {
+  display: block;
+  font-weight: 600;
+}
+.explore-filters select,
+.table-search input {
+  display: block;
+  margin-top: 0.3rem;
+  max-width: 100%;
+  padding: 0.4rem;
+  width: 100%;
+}
+#performance-chart {
+  background: #fff;
+  border: 1px solid #d9dee5;
+  border-radius: 0.25rem;
+  display: block;
+  margin: 1rem 0;
+  max-width: 100%;
+  width: 100%;
+}
+.explore-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.4rem;
+  margin: 0.5rem 0;
+}
+.legend-key::before {
+  content: "";
+  display: inline-block;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+  width: 1.5rem;
+}
+.legend-control::before {
+  border-top: 3px solid #596575;
+}
+.legend-pjt::before {
+  border-top: 3px solid #236a8d;
+}
+.legend-pre::before {
+  border-top: 3px dashed #303944;
+}
+.legend-post::before {
+  border-top: 3px solid #303944;
+}
+#hover-details,
+#chart-status,
+#table-status {
+  min-height: 1.5rem;
+}
+.table-search {
+  margin: 1rem 0;
+  max-width: 32rem;
+}
+</style>
+
+<div class="explore-filters">
+  <label for="test-filter">Performance test
+    <select id="test-filter"><option value="">Loading tests...</option></select>
+  </label>
+  <label for="group-filter">Training group
+    <select id="group-filter">
+      <option value="all">All groups</option>
+      <option value="Control">Control</option>
+      <option value="PJT">Plyometric training (PJT)</option>
+    </select>
+  </label>
+  <label for="athlete-filter">Athlete (generated row label)
+    <select id="athlete-filter"><option value="all">All athletes</option></select>
+  </label>
+</div>
+
+<div class="explore-legend" aria-label="Graph legend">
+  <span class="legend-key legend-control">Control</span>
+  <span class="legend-key legend-pjt">Plyometric training (PJT)</span>
+  <span class="legend-key legend-pre">Pre-PHV group mean</span>
+  <span class="legend-key legend-post">Post-PHV group mean</span>
+</div>
+
+<svg id="performance-chart" viewBox="0 0 900 500" role="img" aria-labelledby="chart-title chart-description">
+  <title id="chart-title">Interactive performance graph</title>
+  <desc id="chart-description">Loading the paired participant data.</desc>
+</svg>
+<p id="hover-details" aria-live="polite">Load the data to explore individual results.</p>
+<p id="chart-status" role="status">Loading the paired performance data...</p>
+
+## Searchable data table
+
+The dropdown filters above also apply to this table. Search within the currently selected rows by athlete label, test, group, or maturity.
+
+<div class="table-search">
+  <label for="table-search">Search data
+    <input id="table-search" type="search" placeholder="For example: A01, sprint, PJT">
+  </label>
+</div>
+<p id="table-status" role="status">Loading table data...</p>
+
+<div class="table-responsive">
+  <table id="performance-table" class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Athlete label</th>
+        <th scope="col">Maturity</th>
+        <th scope="col">Training group</th>
+        <th scope="col">Performance test</th>
+        <th scope="col">Unit</th>
+        <th scope="col">Before</th>
+        <th scope="col">After</th>
+        <th scope="col">Change (after - before)</th>
+      </tr>
+    </thead>
+    <tbody id="performance-table-body"></tbody>
+  </table>
+</div>
+
+[Download the paired performance data as CSV](data/explore-performance.csv).
+
+### Sources
+
+- [Holík et al. (2026), PLOS ONE](https://doi.org/10.1371/journal.pone.0349011)
+- [Study dataset on Zenodo](https://doi.org/10.5281/zenodo.17881834)
+- [Coach Athletics: four plyometric studies for track-and-field coaches](https://coachathletics.com.au/coaching-education/plyometrics-four-studies-all-track-and-field-coaches-should-understand)
+- [Background research on PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC5260592/)
+
+<script src="scripts/explore.js"></script>

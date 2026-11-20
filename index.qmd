@@ -1,23 +1,74 @@
 ---
-title: About
+title: Home
 ---
 
 What if the key to running faster and jumping higher was hidden in just a few months of explosive training?
 
-Over six months, this project will explore how to organize plyometric workouts for athletes and use published research to guide a progressive training plan.
+This project investigates how plyometric jump training relates to jump performance in youth soccer players, and whether results differ by biological maturity. Published research will help guide a progressive six-month training plan.
 
-## About Me
+**Research question:** How does 12 weeks of plyometric jump training affect countermovement jump height in youth male soccer players, and does the change differ before and after peak height velocity (PHV)?
 
-- **Name:** Marley John
-- **Email:** [marley.p.john@gmail.com](mailto:marley.p.john@gmail.com)
-- **GitHub:** [marleypjohn-beep](https://github.com/marleypjohn-beep)
-- **Final project repository:** [Plyometric-project](https://github.com/marleypjohn-beep/Plyometric-project)
-- **New College of Florida:** [ncf.edu](https://www.ncf.edu/)
+## Featured result: countermovement jump
 
-Baseball has been part of my life for as long as I can remember. As I got older, I became interested in strength training because I saw how it could help me perform better on the field. That curiosity led me to explore different ways to improve my athletic performance, including plyometric training.
+Each point shows the group mean of each athlete's average across three jump trials. PHV groups and control/PJT groups are shown separately.
 
-I have practiced plyometrics for several years, and I feel it has helped me become a better player. I chose this project because I want to share what I learn about the principles behind this style of training and the potential benefits it can offer athletes.
+<figure>
+<svg viewBox="0 0 640 390" role="img" aria-labelledby="cmj-title cmj-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="cmj-title">Mean countermovement jump height before and after the study</title>
+  <desc id="cmj-desc">Four lines compare mean jump height before and after training for pre-PHV and post-PHV participants in control and plyometric training groups.</desc>
+  <rect x="0" y="0" width="640" height="390" fill="white"/>
+  <g stroke="#d9dee5" stroke-width="1">
+    <line x1="86" y1="80" x2="422" y2="80"/>
+    <line x1="86" y1="163.3" x2="422" y2="163.3"/>
+    <line x1="86" y1="246.7" x2="422" y2="246.7"/>
+    <line x1="86" y1="330" x2="422" y2="330"/>
+  </g>
+  <g fill="#4a5562" font-family="sans-serif" font-size="13" text-anchor="end">
+    <text x="76" y="85">40</text>
+    <text x="76" y="168">30</text>
+    <text x="76" y="251">20</text>
+    <text x="76" y="335">10</text>
+  </g>
+  <g stroke="#56616f" stroke-width="2.5" fill="none">
+    <line x1="140" y1="270.8" x2="370" y2="265"/>
+  </g>
+  <g stroke="#236a8d" stroke-width="2.5" fill="none" stroke-dasharray="7 5">
+    <line x1="140" y1="233.5" x2="370" y2="225.7"/>
+  </g>
+  <g stroke="#56616f" stroke-width="2.5" fill="none">
+    <line x1="140" y1="153.1" x2="370" y2="147"/>
+  </g>
+  <g stroke="#236a8d" stroke-width="2.5" fill="none">
+    <line x1="140" y1="148.8" x2="370" y2="139.6"/>
+  </g>
+  <g fill="#56616f">
+    <circle cx="140" cy="270.8" r="5"/><circle cx="370" cy="265" r="5"/>
+    <circle cx="140" cy="153.1" r="5"/><circle cx="370" cy="147" r="5"/>
+  </g>
+  <g fill="#236a8d">
+    <circle cx="140" cy="233.5" r="5"/><circle cx="370" cy="225.7" r="5"/>
+    <circle cx="140" cy="148.8" r="5"/><circle cx="370" cy="139.6" r="5"/>
+  </g>
+  <g fill="#303944" font-family="sans-serif" font-size="14" text-anchor="middle">
+    <text x="140" y="353">Before</text>
+    <text x="370" y="353">After</text>
+  </g>
+  <text x="20" y="205" fill="#303944" font-family="sans-serif" font-size="13" text-anchor="middle" transform="rotate(-90 20 205)">Mean jump height (cm)</text>
+  <g font-family="sans-serif" font-size="13" fill="#303944">
+    <line x1="447" y1="105" x2="475" y2="105" stroke="#56616f" stroke-width="2.5"/>
+    <text x="484" y="110">Pre-PHV control</text>
+    <line x1="447" y1="133" x2="475" y2="133" stroke="#236a8d" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="484" y="138">Pre-PHV PJT</text>
+    <line x1="447" y1="161" x2="475" y2="161" stroke="#56616f" stroke-width="2.5"/>
+    <text x="484" y="166">Post-PHV control</text>
+    <line x1="447" y1="189" x2="475" y2="189" stroke="#236a8d" stroke-width="2.5"/>
+    <text x="484" y="194">Post-PHV PJT</text>
+  </g>
+</svg>
+<figcaption>Mean countermovement jump (CMJ) height, in centimeters. Lines connect group averages before and after the 12-week study intervention. PJT = plyometric jump training; PHV = peak height velocity. See <a href="results.qmd">Results</a> for the group values and interpretation.</figcaption>
+</figure>
 
-## Data Sources
-
-This project will use published research and coaching resources to inform a six-month plyometric training plan for athletes. The [Coach Athletics article](https://coachathletics.com.au/coaching-education/plyometrics-four-studies-all-track-and-field-coaches-should-understand) discusses four studies relevant to track-and-field coaches, and this [research article on PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC5260592/) provides additional scientific background on plyometric training. These are background sources for the project, rather than a workout dataset.
+<div class="grid">
+  <a class="btn btn-primary" href="results.qmd">View Results</a>
+  <a class="btn btn-outline-primary" href="explore.qmd">Explore the data</a>
+</div>

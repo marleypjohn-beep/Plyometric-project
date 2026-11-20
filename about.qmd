@@ -1,0 +1,15 @@
+---
+title: About
+---
+
+## About Me
+
+- **Name:** Marley John
+- **Email:** [marley.p.john@gmail.com](mailto:marley.p.john@gmail.com)
+- **GitHub:** [marleypjohn-beep](https://github.com/marleypjohn-beep)
+- **Final project repository:** [Plyometric-project](https://github.com/marleypjohn-beep/Plyometric-project)
+- **New College of Florida:** [ncf.edu](https://www.ncf.edu/)
+
+Baseball has been part of my life for as long as I can remember. As I got older, I became interested in strength training because I saw how it could help me perform better on the field. That curiosity led me to explore different ways to improve my athletic performance, including plyometric training.
+
+I have practiced plyometrics for several years, and I feel it has helped me become a better player. I chose this project because I want to share what I learn about the principles behind this style of training and the potential benefits it can offer athletes.

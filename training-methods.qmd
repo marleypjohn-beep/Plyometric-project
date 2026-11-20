@@ -1,0 +1,87 @@
+---
+title: Training & Methods
+---
+
+## What is plyometric training?
+
+Plyometric exercises use a quick transition from landing or lowering (the stretch phase) to a powerful jump (the shortening phase). The study's program used varied jumps to practice producing force quickly.
+
+## Data source
+
+This project analyzes published research data; I did not recruit participants or conduct the study's training or testing. The data are from [the original paper](https://doi.org/10.1371/journal.pone.0349011) and its [Zenodo dataset](https://doi.org/10.5281/zenodo.17881834).
+
+## The study's training program
+
+Within each maturity group (pre- or post-peak height velocity, PHV), participants were randomly assigned to plyometric jump training (PJT) or control. The PJT group completed the added jump program; the control group continued regular soccer training without it.
+
+The PJT program lasted 12 weeks, with two sessions per week during the competitive season. Sessions followed a dynamic warm-up, lasted about 20 minutes, were led by one professional coach, and were held outdoors on natural grass. Sessions were separated by at least 48 hours.
+
+The paper's four phases progressed from exercises with longer ground contact toward faster, more intense jumping. Examples in its training tables include forward, backward, and lateral pogos; standing hops; fast skipping; countermovement and broad jumps; mini-hurdle hops; lateral bounds; consecutive horizontal jumps; and unilateral triple jumps. The program used bilateral and unilateral exercises in different directions. Rest intervals were 60 seconds in phases 1 and 2, and 90 seconds in phases 3 and 4.
+
+## Participants
+
+The researchers recruited 45 male soccer players aged 10–18; 37 were included in the final analysis. Players had at least two years of organized soccer experience and regularly attended at least three soccer sessions each week. Of the 37 analyzed players, 20 were post-PHV and 17 were pre-PHV. The post-PHV group included 10 PJT and 10 control players; the pre-PHV group included 10 PJT and 7 control players. PHV status was estimated from age and body measurements using the Mirwald method.
+
+## How performance was measured
+
+Players completed performance testing both before (T1) and after (T2) the program. Tests and measurements in the dataset were:
+
+- 20-meter sprint time (**seconds**)
+- L-run change-of-direction time (**seconds**)
+- Broad-jump distance and unilateral triple-jump distance for each leg (**centimeters**)
+- CMJ height (**centimeters**)
+- Drop-jump contact time (**seconds**) and jump height (**centimeters**)
+- Relative leg stiffness from repeated hops (**kilonewtons per meter**)
+
+For the CMJ, players kept their hands on their hips and performed three maximal jumps on force platforms, with one minute of rest between attempts; the average jump height was used. For the leg-stiffness test, players completed 20 submaximal hops, and the middle 10 were analyzed. Testing took place indoors between 9:30 a.m. and noon, with a 15-minute warm-up and at least three minutes of rest between tests.
+
+## Reported study timeline
+
+<style>
+.timeline {
+  border-left: 3px solid #236a8d;
+  list-style: none;
+  margin: 1.5rem 0 1.5rem 0.75rem;
+  padding: 0 0 0 1.5rem;
+}
+.timeline li {
+  margin: 0 0 1.5rem;
+  position: relative;
+}
+.timeline li::before {
+  background: #236a8d;
+  border: 3px solid white;
+  border-radius: 50%;
+  content: "";
+  height: 0.8rem;
+  left: -2rem;
+  position: absolute;
+  top: 0.25rem;
+  width: 0.8rem;
+}
+.timeline h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+</style>
+
+<ol class="timeline">
+  <li>
+    <h3>Familiarization</h3>
+    <p>About one week before baseline testing. The article does not give the calendar date.</p>
+  </li>
+  <li>
+    <h3>Baseline tests (T1)</h3>
+    <p>Performance was measured before the intervention. The exact test date is not reported.</p>
+  </li>
+  <li>
+    <h3>12-week training period</h3>
+    <p>PJT took place twice weekly for 12 weeks.</p>
+  </li>
+  <li>
+    <h3>Post-intervention tests (T2)</h3>
+    <p>Performance was measured after the intervention. The exact test date is not reported.</p>
+  </li>
+</ol>
+
+**Reported overall study period:** May 13–August 16, 2024. The paper does not give calendar dates for the individual testing sessions or training sessions, so none are inferred here. For full methods, see [the original paper](https://doi.org/10.1371/journal.pone.0349011) and [the published dataset](https://doi.org/10.5281/zenodo.17881834).
